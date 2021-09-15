@@ -73,28 +73,28 @@ body {
   text-align: left;
 }
 
-.logo {
+.header-logo {
   color: var(--primmary-text-color);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
 }
-.logo .logo-web,
-.footer-logo .logo-web {
+.header-logo-web,
+.footer-logo-web {
   color: var(--accent-color);
 }
-.site-nav .link {
+.site-nav-link {
   color: var(--primmary-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.contacts-header .link:hover,
-.contacts-header .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus,
+.contacts-header-link:hover,
+.contacts-header-link:focus {
   color: var(--accent-color);
 }
 
-.contacts-header .link {
+.contacts-header-link {
   color: var(--secondary-text-color);
 }
 
@@ -106,7 +106,7 @@ body {
   text-align: center;
 }
 
-.main-section .tittle {
+.main-section-title {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
@@ -117,19 +117,19 @@ body {
 .advantage-section {
 }
 
-.advantage-section .tittle-item {
+.advantage-list-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.advantage-section .text-item {
+.advantage-list-text {
   color: var(--secondary-text-color);
   line-height: 1.71;
 }
 
-.doing-section .tittle,
-.team-section .tittle {
+.futures-title,
+.team-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -139,18 +139,18 @@ body {
 .team-section {
   background-color: var(--third-bg-color);
 }
-.team-section .tittle-item {
+.team-list-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
 }
 
-.team-section .text-item {
+.team-list-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.18;
 }
-.team-section .card {
+.team-list-item {
   background-color: var(--primary-white-color);
 }
 
