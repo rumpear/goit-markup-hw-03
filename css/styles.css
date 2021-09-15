@@ -169,11 +169,11 @@ body {
   line-height: 1.19;
 }
 
-.footer-contacts .link {
+.footer-contacts-link {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-contacts .link:hover,
-.footer-contacts .link:focus {
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
   color: var(--accent-color);
 }
 .adress {
@@ -183,14 +183,14 @@ body {
 
 /* PORTFOLIO */
 
-.work-list .tittle-item {
+.work-list-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
 }
-.work-list .text-item {
+.work-list-text {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.87;
