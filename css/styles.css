@@ -36,7 +36,7 @@ p {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -185,7 +185,13 @@ body {
 /* SECTIONS */
 
 .section {
-  padding: 94px 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-without-top-padding {
+  padding-top: 0px;
+  padding-bottom: 94px;
 }
 
 .main {
@@ -209,6 +215,10 @@ body {
 
 .advantage-list {
   display: flex;
+}
+
+.advantage-item {
+  width: calc((100% - 90px) / 4);
 }
 
 .advantage-item:not(:last-child) {
@@ -377,7 +387,7 @@ body {
   border: 1px solid #eeeeee;
 }
 
-.work-list:nth-child(-n + 3) {
+.work-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
 
